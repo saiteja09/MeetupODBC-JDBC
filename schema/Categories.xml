@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="Categories">
+		
+		<column name="id" dataType="4" userData=""/>
+		<column name="name" dataType="12" userData=""/>
+		<column name="sort_name" dataType="12" userData=""/>
+		<column name="shortname" dataType="12" userData=""/>
+	
+		<stat nonUnique="0" indexName="IDXCATID" indexType="1" seqInIndex="1" columnName="id" cardinality="-1" pages="-1" filterConditions="" />
+	
+		<pkfk pkColumnName="id" keySeq="1" updateRule="-1" deleteRule="-1" pkName="PKCATID" />
+
+	</table>
+</tables>

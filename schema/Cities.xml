@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="Cities">
+		
+		<column name="id" dataType="4" userData=""/>
+		<column name="city" dataType="12" userData=""/>
+		<column name="state" dataType="12" userData=""/>
+		<column name="country" dataType="12" userData=""/>
+		<column name="zip" dataType="12" userData=""/>
+		<column name="localized_country_name" dataType="12" userData=""/>
+		<column name="distance" dataType="2" userData=""/>
+		<column name="lon" dataType="2" userData=""/>
+		<column name="lat" dataType="2" userData=""/>
+		<column name="member_count" dataType="8" userData=""/>
+		<column name="ranking" dataType="4" userData=""/>
+		
+		
+	
+		<stat nonUnique="0" indexName="IDXCITID" indexType="1" seqInIndex="1" columnName="id" cardinality="-1" pages="-1" filterConditions="" />
+	
+		<pkfk pkColumnName="id" keySeq="1" updateRule="-1" deleteRule="-1" pkName="PKCITID" />
+
+	</table>
+</tables>

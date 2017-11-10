@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="Groups">
+		
+		<column name="id" dataType="8" userData=""/>
+		<column name="name" dataType="12" userData=""/>
+		<column name="description" dataType="12" userData=""/>
+		<column name="link" dataType="12" userData=""/>
+		<column name="urlname" dataType="12" userData=""/>
+		<column name="members" dataType="8" userData=""/>
+		<column name="who" dataType="12" userData=""/>
+		<column name="join_mode" dataType="12" userData=""/>
+		
+
+		<column name="country" dataType="12" userData=""/>
+		<column name="city" dataType="12" userData=""/>
+		<column name="state" dataType="12" userData=""/>
+		<column name="zip" dataType="4" userData=""/>
+		<column name="rating" dataType="8" userData=""/>
+		<column name="lat" dataType="2" userData=""/>
+		<column name="lon" dataType="2" userData=""/>
+		<column name="timezone" dataType="12" userData=""/>
+		
+		
+		<column name="organizer_member_id" dataType="8" userData=""/>
+		<column name="organizer_name" dataType="12" userData=""/>
+		<column name="who" dataType="12" userData=""/>
+		
+		<column name="visibility" dataType="12" userData=""/>
+		<column name="created" dataType="8" userData=""/>
+		<column name="utc_offset" dataType="8" userData=""/>
+
+		
+		<stat nonUnique="0" indexName="IDXTOPICSID" indexType="1" seqInIndex="1" columnName="id" cardinality="-1" pages="-1" filterConditions="" />
+	
+		<pkfk pkColumnName="id" keySeq="1" updateRule="-1" deleteRule="-1" pkName="PKTOPICSID" />
+
+	</table>
+</tables>
